@@ -1,0 +1,51 @@
+<section class="h-4/5 bg-white dark:bg-neutral-900">
+  
+  <section class="h-1/4 text-6xl flex justify-center">
+    <div class="self-center text-black dark:text-slate-300"  [translate]=" 'portfolio.title' "></div>
+  </section>
+
+  <section  class="h-4/5  items-center justify-center text-center">
+    <swiper
+    [effect]="'coverflow'"
+    [grabCursor]="true"
+    [navigation]="true"
+    [pagination]="true"
+    [centeredSlides]="true"
+    [slidesPerView]="'auto'"
+    [loop]="true"
+    [coverflowEffect]="{
+      rotate: 40,
+      stretch: 0,
+      depth: 0,
+      slideShadows: false
+    }"
+  >
+    <ng-template swiperSlide>
+      <p class="text-white dark:text-black text-lg bg-rose-500 dark:bg-slate-300" [translate]=" 'portfolio.projects.news.title' "></p>
+      <img class="p-4 rounded-3xl h-60 w-60" src="../../../../../assets/news-pana.png" alt="Photo of a News Project"/>
+      <button mat-raised-button  routerLink="news" class="bg-rose-500 dark:bg-slate-300 text-white dark:text-black">
+        {{ 'portfolio.bntGoProject' | translate }}
+      </button>
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <p class="text-white dark:text-black text-lg bg-orange-500 dark:bg-slate-300" [translate]=" 'portfolio.projects.IReportIt.title' "></p>
+      <img src="../../../../../assets/location-user.png" class="p-4 rounded-3xl h-60 w-60" />
+      <button mat-raised-button routerLink="maps" class="bg-orange-500 dark:bg-slate-300 text-white dark:text-black">
+        {{ 'portfolio.bntGoProject' | translate }}
+      </button>
+    </ng-template>
+    
+    <ng-template swiperSlide>
+      <p class="text-white dark:text-black text-lg bg-gray-500 dark:bg-slate-300"  [translate]=" 'portfolio.projects.talachapp.title' "></p>
+      <img src="../../../../../assets/soccer.png" class="p-4 rounded-3xl h-60 w-60" />
+    </ng-template>
+
+    <ng-template swiperSlide>
+      <p class="text-white dark:text-black text-lg bg-yellow-500 dark:bg-slate-300" [translate]=" 'portfolio.projects.heytu.title' "></p>
+      <img src="../../../../../assets/messaging.png" class="p-4 rounded-3xl h-60 w-60" />
+    </ng-template>
+
+    </swiper>
+  </section>
+</section>

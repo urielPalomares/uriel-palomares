@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <!-- <mat-icon (click)="this.sideNav.open()"  *ngIf="!sideNav?.opened">menu</mat-icon> -->
+  </button>
+    <span>{{ title }}</span>
+  </mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav-content class="content mat-elevation-z4">
+        <div #mapDiv class="map-container" id="map"></div>
+    </mat-sidenav-content>
+  
+  </mat-sidenav-container>

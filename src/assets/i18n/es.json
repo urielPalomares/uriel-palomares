@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "mode": {
+      "dark": "Dark Mode",
+      "light": "Light Mode"
+    }
+  },
+  "home": {
+    "title": "Hola soy",
+    "subtitle": "Software Developer."
+  },
+  "about": {
+    "name": "Ma llamo Uriel. Encantado de conocerte.",
+    "history": "Comencé mi viaje como desarrollador hace más de 6 años, he colaborado con personas talentosas para crear productos digitales increibles. Soy naturalmente curioso y trabajo perpetuamente para mejorar mis habilidades, un bug a la vez."
+  },
+  "portfolio": {
+    "title": "Developer Portfolio",
+    "projects": {
+      "news": {
+        "title": "Que esta pasando",
+        "description": "Portal noticiero, a través del cual comunicamos lo que esta pasando por el mundo en los ultimos días. Se trata de contenidos con trending-topic, filtrado por fuentes."
+      },
+      "IReportIt": {
+        "title": "Yo lo reporto",
+        "description": "Portal de incidencias, a través del cual los ciudadanos pueden cualquier anomalia para que sus autoridades correspondientes las puedan atender."
+      },
+      "talachapp": {
+        "title": "TalachAPP",
+        "description": "App donde cualquier jugador pueda llevar registros de los partidos jugados y en caso de recibir alguna renumeración tambien poder llevar el control."
+      },
+      "heytu": {
+        "title": "HeyTu!",
+        "description": "App donde puedes mandar mesanje por whatsapp a cualquier persona del mundo sin tener la necesidad de tener que agregarla a tus contactos."
+      }
+    },
+    "bntGoProject": "Visitar Sitio"
+  }
+}

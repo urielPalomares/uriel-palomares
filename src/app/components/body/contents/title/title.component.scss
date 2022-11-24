@@ -1,0 +1,37 @@
+.image-son {
+    background-image: url(./../../../../../assets//luna.jpg);
+}
+
+.image-sunny {
+    background-image: url(./../../../../../assets//boats-gfad6890be_1920.jpg);
+}
+
+.arrows {
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+    fill: transparent;	
+}
+
+.typing {
+    width: 19ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

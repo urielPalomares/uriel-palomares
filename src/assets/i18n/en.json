@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "mode": {
+      "dark": "Dark Mode",
+      "light": "Light Mode"
+    }
+  },
+  "home": {
+    "title": "Hi I`m",
+    "subtitle": "Software Developer."
+  },
+  "about": {
+    "name": "My name is Uriel. Pleased to meet you.",
+    "history": "Starting my journey as a developer over 6 years ago, I have collaborated with talented people to create incredible digital products. I am naturally curious and perpetually working to improve my skills, one bug at a time.."
+  },
+  "portfolio": {
+    "title": "Developer Portfolio",
+    "projects": {
+      "news": {
+        "title": "Que esta pasando",
+        "description": "News portal, through which we communicate what is happening in the world in recent days. It is content with trending-topic, filtered by sources."
+      },
+      "IReportIt": {
+        "title": "Yo lo reporto",
+        "description": "Incident portal, through which citizens can report any anomaly so that their corresponding authorities can address them."
+      },
+      "talachapp": {
+        "title": "TalachAPP",
+        "description": "App where any player can keep records of the games played and in case of receiving any remuneration also be able to keep track."
+      },
+      "heytu": {
+        "title": "HeyTu!",
+        "description": "App where you can send messages by WhatsApp to anyone in the world without having to add them to your contacts."
+      }
+    },
+    "bntGoProject": "Visit Site"
+  }
+}

@@ -1,0 +1,16 @@
+<section class="h-max grid grid-rows-1 xl:grid-cols-2">
+  <div class="flex flex-col justify-center text-black dark:text-slate-300 bg-zinc-50 dark:bg-gray-900">
+    <h2 class="text-center">
+     {{ 'about.name' | translate }}<mat-icon>pan_tool</mat-icon>
+    </h2>
+    <p class="indent-8 font-mono justify-start p-10" [translate]=" 'about.history' "></p>
+  </div>
+
+  <div class="flex flex-auto justify-center bg-white dark:bg-gray-900">
+    <img
+      src="../../../assets/coding-amico.png"
+      alt="Arrows"
+      class="w-3/4 items-center content-center object-center justify-center"
+    />
+  </div>
+</section>
