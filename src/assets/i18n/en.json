@@ -6,15 +6,20 @@
     }
   },
   "home": {
-    "title": "Hi I`m",
-    "subtitle": "Software Developer."
+    "title": "Hi",
+    "iam": ", i`m",
+    "name": "Uriel",
+    "surname": "Palomares",
+    "profession": "Software Developer"
   },
   "about": {
-    "name": "My name is Uriel. Pleased to meet you.",
+    "title": "About me",
+    "name": "My name is Uriel Rolando Palomares Elias",
     "history": "Starting my journey as a developer over 6 years ago, I have collaborated with talented people to create incredible digital products. I am naturally curious and perpetually working to improve my skills, one bug at a time.."
   },
   "portfolio": {
-    "title": "Developer Portfolio",
+    "title": "Portfolio",
+    "subtitle": "Latest Projects",
     "projects": {
       "news": {
         "title": "Que esta pasando",
