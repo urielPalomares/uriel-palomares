@@ -20,6 +20,8 @@ import { HeaderComponent } from 'src/app/components/header/header.component';
 import { FooterComponent } from 'src/app/components/footer/footer.component';
 import { BodyComponent } from 'src/app/components/body/body.component';
 import { AboutMeComponent } from 'src/app/components/body/contents/about-me/about-me.component';
+import { SkillsComponent } from 'src/app/components/body/contents/skills/skills.component';
+import { ContactComponent } from 'src/app/components/body/contents/contact/contact.component';
 import { ProjectsComponent } from 'src/app/components/body/contents/projects/projects.component';
 import { TitleComponent } from 'src/app/components/body/contents/title/title.component';
 import { SocialNetworksComponent } from 'src/app/components/body/contents/social-networks/social-networks.component';
@@ -33,8 +35,10 @@ import { SocialNetworksComponent } from 'src/app/components/body/contents/social
     FooterComponent,
     TitleComponent,
     AboutMeComponent,
+    SkillsComponent,
     ProjectsComponent,
     SocialNetworksComponent,
+    ContactComponent,
   ],
   imports: [
     CommonModule,

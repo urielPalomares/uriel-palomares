@@ -39,5 +39,13 @@
       }
     },
     "bntGoProject": "Visit Site"
+  },
+  "contact": {
+    "title": "Let' s Work Together!",
+    "subtitle": "Send us a message here:",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "btnSend": "Send Message"
   }
 }

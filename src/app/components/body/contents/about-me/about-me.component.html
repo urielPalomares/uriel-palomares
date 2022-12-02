@@ -1,16 +1,10 @@
-<section class="h-max grid grid-rows-1 xl:grid-cols-2">
-  <div class="flex flex-col justify-center text-black dark:text-slate-300 bg-zinc-50 dark:bg-gray-900">
-
-    <p class="text-xl xl:text-2xl uppercase p-10 justify-start text-gray-500" [translate]=" 'about.title' "></p>
-    <p class="text-2xl xl:text-4xl justify-start indent-10 font-bold" [translate]=" 'about.name' "></p>
-    <p class="text-sm xl:text-lg indent-8 justify-start p-10" [translate]=" 'about.history' "></p>
+<section class="h-1/2 grid grid-rows-1 xl:grid-cols-2 px-0 lg:px-32 pt-0 lg:pt-20 pb-10 bg-zinc-50 dark:bg-gray-900">
+  <div class="flex flex-col justify-center text-black dark:text-slate-300 bg-zinc-100 dark:bg-gray-800 rounded-md p-10">
+    <p class="text-2xl xl:text-3xl  font-bold" [translate]=" 'about.name' "></p>
+    <p class="text-lg justify-start text-justify mt-5" [translate]=" 'about.history' "></p>
   </div>
 
-  <div class="flex flex-auto justify-center bg-white dark:bg-gray-900">
-    <img
-      src="../../../assets/coding-amico.png"
-      alt="Arrows"
-      class="w-3/4 items-center content-center object-center justify-center"
-    />
+  <div class="flex text-center bg-white dark:bg-gray-900  items-center justify-center order-first lg:order-last">
+    <p class="text-5xl xl:text-9xl uppercase p-10 justify-start text-gray-500 about" [translate]=" 'about.title' "></p>
   </div>
 </section>

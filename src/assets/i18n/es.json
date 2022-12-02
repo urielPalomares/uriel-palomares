@@ -39,5 +39,13 @@
       }
     },
     "bntGoProject": "Visitar Sitio"
+  },
+  "contact": {
+    "title": "Vamos a trabajar juntos!",
+    "subtitle": "Envíenos un mensaje aquí:",
+    "name": "Su nombre",
+    "email": "Su correo electrónico",
+    "message": "Su mensaje",
+    "btnSend": "Enviar mensaje"
   }
 }
